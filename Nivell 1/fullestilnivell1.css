@@ -1,0 +1,15 @@
+/*divs principals*/
+
+.principal {background-color:black; max-width:1200px; padding:20px; margin-bottom:20px;}
+#gran-2 {display:flex;}
+/* divs mitjans */
+
+.blau-fosc {background-color:#2d4059; padding:20px; margin-bottom:20px;}
+.taronja {background-color:#f07b3f; padding:20px;}
+.vermell {background-color:#f73f52; padding:20px; width:30%; display:flex; margin-left:10px;}
+.blau {background-color:#4e4e6a; padding:20px; width:70%; display:flex; margin-right:10px;}
+.groc-3 {background-color:#4e4e6a;}
+/* divs petits */
+
+
+
