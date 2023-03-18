@@ -20,7 +20,7 @@ p {font-family:libre baskerville; font-size:14px; line-height:1.5;}
 /* MENU */
 
 .iconosmenu {
-    width:16px;
+    height:16px;
     margin-right:5px;
 }
 
@@ -59,6 +59,7 @@ p {font-family:libre baskerville; font-size:14px; line-height:1.5;}
 
 #navigation {
     display:flex;
+    align-items:center;
 }
 
 #navigation {
@@ -116,7 +117,7 @@ p {font-family:libre baskerville; font-size:14px; line-height:1.5;}
 
 #content > div {
     background-color:#D8D7D7;
-    padding:30px;
+    padding:10px;
 }
 
 #content {
@@ -128,12 +129,55 @@ p {font-family:libre baskerville; font-size:14px; line-height:1.5;}
 
 #main-content {
     width:70%;
+    flex-direction:column;
+    display:flex;
 }
-#sidebar {
-    width:30%;
+
+.row-container {
+    display:flex;
+    column-gap:10px;
+    margin-bottom:10px;
+    flex:1;
+}
+
+.row-container > div {
+    padding:10px;
+    flex:1;
+    background-color:white;
 }
 
 #sidebar {
+    width:30%;
     text-align:center;
+    padding:30px!important;
 }
+
+/* post */
+
+.imagenpost {
+    min-height:150px;
+    padding:10px;
+    display:flex;
+    flex-direction:column-reverse;
+}
+
+.imagenpost p {
+    font-family:Libre Baskerville; 
+    font-size:18px; 
+    color:rgb(255, 245, 106); 
+    font-weight:600;
+    vertical-align: bottom;
+    margin-bottom:0px;
+}
+
+.titulodelpost {
+
+}
+
+#post-1 .imagenpost {
+    background-image:url("img/sakura.jpg"); 
+    background-position:center center;
+    background-size:100%;
+}
+
 
