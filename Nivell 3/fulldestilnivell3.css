@@ -32,6 +32,7 @@ h3 {margin:0; padding:0;}
     justify-content: center;
     background-image:url("img/header.jpg");
     background-position:center center;
+    animation: aparecer 5s ease-in-out;
 }
 
 #header > div {
@@ -40,6 +41,7 @@ h3 {margin:0; padding:0;}
 
 #imgmenu {
     width:15%;
+    animation: moverIzquierda 3s ease-in;
 }
 
 #imgmenu img{
@@ -253,5 +255,29 @@ border-color:grey;
     font-size:14px;
     font-family:montserrat;
 }
+
+/* keyframes */
+
+@keyframes moverIzquierda {
+    0%{
+        opacity:0;
+        transform: translateX(-100px)
+    }
+    100%{
+        opacity:1;
+        transform: translate(0);
+    }
+}
+
+@keyFrames aparecer {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+
 
 
