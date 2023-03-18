@@ -1,6 +1,9 @@
 /* MAIN */
 
 h1 {font-family:libre baskerville; font-size:35px; font-weight:600;}
+h2 {font-family:montserrat; font-size:25px; font-weight:600;}
+p {font-family:libre baskerville; font-size:14px; line-height:1.5;}
+
 
 #main {
     max-width:1200px;
@@ -11,9 +14,15 @@ h1 {font-family:libre baskerville; font-size:35px; font-weight:600;}
     bottom: 0;
     left: 0;
     margin-top:30px;
+    text-decoration:none;
 }
 
 /* MENU */
+
+.iconosmenu {
+    width:16px;
+    margin-right:5px;
+}
 
 #header {
     padding:25px;
@@ -45,6 +54,7 @@ h1 {font-family:libre baskerville; font-size:35px; font-weight:600;}
 
 #frase h1 {
     text-align:center;
+    text-decoration:none;
 }
 
 #navigation {
@@ -60,6 +70,15 @@ h1 {font-family:libre baskerville; font-size:35px; font-weight:600;}
     font-size:14px;
 }
 
+#navigation a{
+   text-decoration:none;
+   color:black;
+}
+
+#navigation :hover{
+    color:#EE7463;
+ }
+
 #menu ul {
     display:flex;
 }
@@ -68,6 +87,14 @@ h1 {font-family:libre baskerville; font-size:35px; font-weight:600;}
     list-style-type: none;
     flex:1;
 }
+
+#social-media {
+    text-align:right;
+}
+
+#social-media :hover{
+    opacity:0.8;
+ }
 
 /* HERO */
 
@@ -83,5 +110,30 @@ h1 {font-family:libre baskerville; font-size:35px; font-weight:600;}
 
 #frase h1 {
     color:#EE7463;
+}
+
+/* CONTENT */
+
+#content > div {
+    background-color:#D8D7D7;
+    padding:30px;
+}
+
+#content {
+    margin-top:10px;
+    margin-bottom:10px;
+    display:flex;
+    column-gap:10px;
+}
+
+#main-content {
+    width:70%;
+}
+#sidebar {
+    width:30%;
+}
+
+#sidebar {
+    text-align:center;
 }
 
