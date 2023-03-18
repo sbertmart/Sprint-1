@@ -3,6 +3,7 @@
 h1 {font-family:libre baskerville; font-size:35px; font-weight:600;}
 h2 {font-family:montserrat; font-size:25px; font-weight:600;}
 p {font-family:libre baskerville; font-size:14px; line-height:1.5;}
+h3 {margin:0; padding:0;}
 
 
 #main {
@@ -170,7 +171,21 @@ p {font-family:libre baskerville; font-size:14px; line-height:1.5;}
     margin-bottom:0px;
 }
 
-.titulodelpost {
+.titulopost {
+    background-color:#F08080;
+    color:white;
+    font-family:montserrat;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-weight:500;
+    padding:10px;
+    margin-top:10px;
+}
+
+.extracto { 
+    font-size:12px;
+    column-count:2;
+    padding:10px;
 
 }
 
@@ -178,6 +193,58 @@ p {font-family:libre baskerville; font-size:14px; line-height:1.5;}
     background-image:url("img/sakura.jpg"); 
     background-position:center center;
     background-size:100%;
+}
+
+#post-2 .imagenpost {
+    background-image:url("img/comida.jpg"); 
+    background-position:center center;
+    background-size:100%;
+}
+
+#post-3 .imagenpost {
+    background-image:url("img/fuji.jpg"); 
+    background-position:center center;
+    background-size:100%;
+    margin-bottom:0;
+}
+
+#post-4 .imagenpost {
+    background-image:url("img/noche.jpg"); 
+    background-position:center center;
+    background-size:100%;
+    margin-bottom:0;
+}
+
+.row2 {
+    margin-bottom:0px;
+}
+
+#row3 {
+    text-align:center;
+    margin:0;
+}
+
+#row3 p{
+    font-family:montserrat;
+    font-weight:600;
+}
+
+/* footer */
+
+#footer {
+background-color:#D8D7D7;
+padding:10px;
+border-width:0px 8px 0px 8px;
+
+border-style:solid;
+border-color:grey;
+}
+
+#footer p{
+    text-align:center;
+    margin:0px;
+    font-size:14px;
+    font-family:montserrat;
 }
 
 
