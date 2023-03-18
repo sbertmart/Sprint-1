@@ -182,10 +182,12 @@ h3 {margin:0; padding:0;}
     margin-top:10px;
 }
 
-.extracto { 
+.extracto p{ 
     font-size:12px;
     column-count:2;
+    column-gap:25px;
     padding:10px;
+    text-align:justify;
 
 }
 
@@ -227,6 +229,11 @@ h3 {margin:0; padding:0;}
 #row3 p{
     font-family:montserrat;
     font-weight:600;
+}
+
+.leermas {
+    color:grey;
+    margin-top:10px;
 }
 
 /* footer */
