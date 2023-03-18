@@ -1,0 +1,149 @@
+/*divs principals*/
+
+.principal {
+    background-color: black;
+    max-width: 1200px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#gran-2 {
+    display: flex;
+}
+
+/* divs mitjans */
+
+.blau-fosc {
+    background-color: #2d4059;
+    padding: 20px;
+    margin-bottom: 20px;
+    display:flex;
+}
+
+.taronja {
+    background-color: #f07b3f;
+    padding: 20px;
+}
+
+.vermell {
+    background-color: #f73f52;
+    padding: 20px;
+    width: 30%;
+    margin-left: 10px;
+}
+
+.blau {
+    background-color: #4e4e6a;
+    padding: 20px;
+    width: 70%;
+    margin-right: 10px;
+    display:flex;
+    flex-wrap:wrap;
+    column-gap:20px;
+}
+
+.groc-3 {
+    background-color: #e6af2e;
+    padding:15px;
+}
+
+/* divs petits */
+
+.rosat {
+
+    background-color:#ea5455;
+    padding:15px;
+}
+
+#petit-1 {
+    width:25%;
+    margin-right:10px;
+}
+#petit-2 {
+    width:50%;
+    margin-right:10px;
+    margin-left:10px;
+}
+#petit-3 {
+    width:25%;
+    margin-left:10px;
+}
+
+.groc {
+    background-color: #fed460;
+    padding: 15px;
+}
+
+.blau3 {
+    background-color:#1f6cb0;
+    padding:15px;
+    margin-bottom:15px;
+}
+
+.columnes {
+   display:flex;
+   column-gap:20px;
+   min-width:100%;
+   margin-bottom:15px;
+}
+
+.columnes2 {
+    display:flex;
+    column-gap:20px;
+    min-width:100%;
+    margin-bottom:15px;
+ }
+
+.fila-3 {
+    width:100%;
+    padding:15px;
+    background-color:#70a3c4;
+}
+
+.columnes > div {
+    background-color:#1f6cb0;
+    padding:15px;
+    flex-grow:1;
+}
+
+.columnes2 > div {
+    background-color:#1f6cb0;
+    padding:15px;
+    flex-grow:1;
+}
+
+.groc-clar {
+    background-color:#feea85;
+    padding:15px;
+    margin-bottom:15px;
+}
+
+/* MEDIA QUERIES */
+
+
+@media (max-width: 991.98px) {
+
+    .blau-fosc {
+        margin-bottom: 15px;
+    }
+
+    #gran-2 {
+        background-color:#feff03;
+        flex-direction:column;;
+        row-gap:15px;
+    }
+
+    #gran-2 > div {
+        flex-grow:1;
+        margin:0;
+        width:auto;
+    }
+
+}
+
+/*
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {}*/
+
+
